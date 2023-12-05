@@ -1,0 +1,27 @@
+.backg{
+    height: 430px;
+    background-image: url(../../../../public/Rectangle\ 226.png);
+    -o-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size: cover; 
+    background-position: center;
+}
+.bgg{
+    height: 430px;
+    background-image: url(../../../../public/fffrr.png);
+    -o-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.bckg{
+    height: 430px;
+  
+    background-image: url(../../../../public/Rectangle\ 5765.png);
+    -o-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size: cover;
+    background-position: center;
+    
+}

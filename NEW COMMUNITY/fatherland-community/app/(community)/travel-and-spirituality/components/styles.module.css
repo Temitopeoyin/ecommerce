@@ -1,0 +1,40 @@
+.hero {
+    background-image: url(../../../../public/tourhero.png);
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+.hher {
+    background-image: linear-gradient(90deg, rgba(20, 32, 45, 0.40) 0%, rgba(20, 32, 45, 0) 100%);
+}
+
+.bb{
+  background-image: url(../../../../public/des1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.bb1{
+  background-image: url(../../../../public/des2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bb2{
+  background-image: url(../../../../public/des3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tourft{
+  background-image: url(../../../../public/Fram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  
+}

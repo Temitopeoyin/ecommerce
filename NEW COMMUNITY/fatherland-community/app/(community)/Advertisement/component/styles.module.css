@@ -1,0 +1,9 @@
+.bckg{
+    height: 430px;
+    background-image: url(../../../../public/adv.png);
+    -o-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    background-size: cover;
+    background-position: center;
+    
+}

@@ -1,0 +1,33 @@
+.b1 {
+   border-top: 13px solid transparent;
+    border-image-source: url(../../../../public/assets/tickets-and-events/b1.jpg);
+    border-image-slice: 10;
+    border-image-repeat: round;
+  }
+  
+  .b2 {
+    border-top: 13px solid transparent;
+     border-image-source: url(../../../../public/assets/tickets-and-events/b2.jpg);
+     border-image-slice: 10;
+     border-image-repeat: round;
+   }
+
+   .b11 {
+    border-top: 13px solid transparent;
+    background-image: url(../../../../public/assets/tickets-and-events/b11.jpg);
+     background-repeat: no-repeat;
+     height: 20px;
+   }
+
+   .b22 {
+    border-top: 13px solid transparent;
+    background-image: url(../../../../public/assets/tickets-and-events/b22.jpg);
+     background-repeat: no-repeat;
+     height: 20px;
+   }
+   .bleft {
+    border-right: 8px solid transparent;
+    border-image-source: url(../../../../public/assets/tickets-and-events/orangeborderline.jpg);
+    border-image-slice: 10;
+    border-image-repeat: round;
+   }

@@ -1,0 +1,18 @@
+.bkg{
+    background-image: url(../../../../public/Group\ abt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ft{
+
+        background-image: url(../../../../public/Rectangle\ 292.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+.hher {
+    background-image: linear-gradient(90deg, rgba(20, 32, 45, 0.40) 0%, rgba(20, 32, 45, 0) 100%);
+    background-position: center;
+}
