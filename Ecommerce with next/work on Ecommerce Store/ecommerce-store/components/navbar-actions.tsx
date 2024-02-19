@@ -5,21 +5,21 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import Button from "@/components/ui/button";
-// import useCart from "@/hooks/use-cart";
+import useCart from "@/hooks/use-cart";
 
 const NavbarActions = () => {
-  // const [isMounted, setIsMounted] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
-  // useEffect(() => {
-  //   setIsMounted(true);
-  // }, []);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const router = useRouter();
-  // const cart = useCart();
+  const cart = useCart();
 
-  // if (!isMounted) {
-  //   return null;
-  // }
+  if (!isMounted) {
+    return null;
+  }
 
   return ( 
     <div className="ml-auto flex items-center gap-x-4  ">
@@ -29,7 +29,7 @@ const NavbarActions = () => {
           color="white"
         />
         <span className="ml-2 text-sm font-medium text-white">
-          {/* {cart.items.length} */}0
+          {cart.items.length}
         </span>
       </Button>
     </div>

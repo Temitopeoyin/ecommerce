@@ -28,7 +28,7 @@ const fetchProducts = async (query: Query) =>{
     })
 
     try {
-        const res = await axios.get(URL)
+        const res = await axios.get(url)
         console.log(res.data, 'RESPONSE');
         return res.data;
     } catch (error) {
